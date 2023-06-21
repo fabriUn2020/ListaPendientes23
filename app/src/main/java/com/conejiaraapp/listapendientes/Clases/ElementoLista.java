@@ -27,7 +27,6 @@ public class ElementoLista
     {
         return titulo;
     }
-
     public String getDescripcion()
     {
         return descripcion;
@@ -43,6 +42,18 @@ public class ElementoLista
     public void setDescripcion(String descripcion)
     {
         this.descripcion = descripcion;
+    }
+    public void setPrioridad(String prioridad)
+    {
+        this.prioridad = prioridad;
+    }
+    public void setTitulo(String titulo)
+    {
+        this.titulo= titulo;
+    }
+    public void setFechaVencimiento(Date fechaVencimiento)
+    {
+        this.fechaVencimiento=fechaVencimiento;
     }
 
 }
